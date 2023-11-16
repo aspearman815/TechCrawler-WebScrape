@@ -20,6 +20,7 @@ public class Main {
                 e.printStackTrace();
             }
         }
+        writeDataToCSV(allThreadsArticlesList);
         writeDataToExcel(allThreadsArticlesList);
     }
 
